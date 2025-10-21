@@ -1,10 +1,7 @@
 # Hand-Gesture-Car-Control
 ---
 Introduction.
-
-This project demonstrates a wireless gesture-controlled car using two ESP32 microcontrollers communicating via ESP-NOW protocol. One ESP32 acts as a controller, equipped with an MPU6050 accelerometer and gyroscope sensor to detect hand movements. The second ESP32 functions as the robot car receiver, controlling two DC motors based on the received commands.
-The controller translates tilt gestures (forward, backward, left, right and stop) into movement commands (F, B, L, R, S) and transmits them wirelessly to the car. The car then drives, reverses, turns, or stops accordingly.
-This project showcases the integration of wireless communication, motion sensing, and motor control using the ESP32 platform.
+This project details a wireless gesture-controlled car using two ESP32 microcontrollers communicating via ESP-NOW. The controller ESP32 uses an MPU6050 accelerometer/gyroscope to detect hand tilt gestures (forward, backward, left, right, stop). It translates these into movement commands (F, B, L, R, S) and transmits them wirelessly. The robot car receiver ESP32 receives the commands and controls two DC motors to drive, reverse, turn, or stop the car accordingly. It integrates wireless communication, motion sensing, and motor control on the ESP32 platform.
 ---
 Hardware Needed.
 
