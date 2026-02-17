@@ -166,7 +166,8 @@ Improvement:
 - Upgrade to a better controller system for faster and more accurate response.
 - Optimize controller-car tuning for smoother and more reliable movement.
 ---
-
+Picture of the Project
+<img width="860" height="751" alt="image" src="https://github.com/user-attachments/assets/30d37d0d-94ad-4163-8710-a25d302e3441" />
 
 
 
